@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570BC9842ADE6D8300D2D8EA /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570BC9832ADE6D8300D2D8EA /* ThemePicker.swift */; };
 		F622247D2AD806DC0099B296 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622247C2AD806DC0099B296 /* ScrumsView.swift */; };
 		F622247F2AD867220099B296 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622247E2AD867220099B296 /* DetailView.swift */; };
 		F657941D2AD696A700A8B42C /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F657941C2AD696A700A8B42C /* ScrumdingerApp.swift */; };
@@ -21,7 +22,7 @@
 		F65BFC882AD70B4400D20E79 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BFC872AD70B4400D20E79 /* CardView.swift */; };
 		F65BFC8A2AD714E300D20E79 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BFC892AD714E300D20E79 /* TrailingIconLabelStyle.swift */; };
 		F664CF742ADAFBC500769C73 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664CF732ADAFBC500769C73 /* ThemeView.swift */; };
-		F6D485922ADA736F00688A6A /* DetailEditVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D485912ADA736F00688A6A /* DetailEditVIew.swift */; };
+		F6D485922ADA736F00688A6A /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D485912ADA736F00688A6A /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570BC9832ADE6D8300D2D8EA /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		F622247C2AD806DC0099B296 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		F622247E2AD867220099B296 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F65794192AD696A700A8B42C /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +61,7 @@
 		F65BFC872AD70B4400D20E79 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F65BFC892AD714E300D20E79 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		F664CF732ADAFBC500769C73 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
-		F6D485912ADA736F00688A6A /* DetailEditVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditVIew.swift; sourceTree = "<group>"; };
+		F6D485912ADA736F00688A6A /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +121,9 @@
 				F65BFC892AD714E300D20E79 /* TrailingIconLabelStyle.swift */,
 				F622247C2AD806DC0099B296 /* ScrumsView.swift */,
 				F622247E2AD867220099B296 /* DetailView.swift */,
-				F6D485912ADA736F00688A6A /* DetailEditVIew.swift */,
+				F6D485912ADA736F00688A6A /* DetailEditView.swift */,
 				F664CF732ADAFBC500769C73 /* ThemeView.swift */,
+				570BC9832ADE6D8300D2D8EA /* ThemePicker.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -289,9 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570BC9842ADE6D8300D2D8EA /* ThemePicker.swift in Sources */,
 				F65BFC862AD704F600D20E79 /* DailyScrum.swift in Sources */,
 				F622247F2AD867220099B296 /* DetailView.swift in Sources */,
-				F6D485922ADA736F00688A6A /* DetailEditVIew.swift in Sources */,
+				F6D485922ADA736F00688A6A /* DetailEditView.swift in Sources */,
 				F65BFC8A2AD714E300D20E79 /* TrailingIconLabelStyle.swift in Sources */,
 				F65BFC842AD6FF9900D20E79 /* Theme.swift in Sources */,
 				F622247D2AD806DC0099B296 /* ScrumsView.swift in Sources */,
